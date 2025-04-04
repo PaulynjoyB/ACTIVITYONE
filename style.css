@@ -151,3 +151,43 @@ section {
     background-color: #dee2e6;
     color: #0f0f0f;
 }
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #343a40;
+}
+
+#footer .logo {
+    border-radius:50%;
+}
+
+#footer ul.list-unstyled li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a{
+    color: rgb(rgb(53, 53, 80));
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+    #home h2 {
+        font-size: 40px;
+    }
+    #home .col-lg-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #about .eyyy{
+        padding: 40px;
+    }
+    #about .ngee{
+        height: 300px;
+    }
+}
